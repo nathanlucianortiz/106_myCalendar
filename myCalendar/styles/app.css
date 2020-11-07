@@ -1,0 +1,75 @@
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(37, 148, 175);
+}
+.section{
+    display: inline-block;
+}
+#secList{
+    width: 60%;
+}
+
+#secForm{
+    width: 39%;
+    background-color: rgb(207, 162, 162);
+    padding: 10px;
+    height: 100%;
+}
+.control{
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10 px 5px;
+    width: 100%
+}
+.control:hover{
+    color: rgb(37, 148, 175);
+}
+h3{
+    color: #444;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Segoe UI', Tahoma;
+}
+#iconImp{
+    color: rgb(37, 148, 175);
+    font-size: 22px;
+    float: right;
+    margin-right: 10px;
+}
+#iconImp.fas{
+    color: rgb(37, 148, 175);
+}
+#iconEye{
+    padding-right: .5rem;
+}
+#iconSlash{
+    padding-right: .5rem;
+}
+.task{
+    border: 1px solid #fafafa;
+    background-color: rgb(207, 162, 162);
+    display: flex;
+}
+
+.task-section{
+    flex: 1;
+
+}
+
+.task-desc{
+    flex: 4;
+}
+#btnShowDetails{
+    background-color: rgb(207, 162, 162);
+    margin-bottom: 15rem;
+}
+.task{
+    color: #444;
+    padding: 1rem;
+}
